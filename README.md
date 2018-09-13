@@ -32,8 +32,6 @@ Given a text file with appropriate info, nbcli can
   * This creates a link in /usr/local/bin that points to the script in the local copy of the git repo.
   * Assuming that /usr/local/bin is in your path you can type nbcli in the CLI and it should give you the help screen.
 
-2018-01-18/DN: I _think_ the above is correct but it's been a long time  since I did most of these things. 
-
 ## Usage?
 
 In iTerm/Terminal enter `nbcli` to get the usage output. Or you could keep reading. 
@@ -85,10 +83,12 @@ optional arguments:
 
 # Status
 
-2018-01-18/DN: Works for Dave
+Works  ¯\_(ツ)_/¯ 
 
 # TODO
-* 2018-01-18/DN: TBD
+
+- Clean up Code
+- Potentially implement Click again 
 
 # DEBUGGING
 If you're having issues you can find the line with `logger.disabled = True` (currently line 31) and change it to False and it will print debug message while running to give help figure out what's going wrong.  I should probably move that to a CLI option.
